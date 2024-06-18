@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  sait:
+    image: my-app-name:my-tag-name
+    restart: always
+    ports:
+      - 8001:80
